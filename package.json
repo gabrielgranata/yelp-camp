@@ -1,0 +1,24 @@
+{
+  "name": "yelp-camp",
+  "version": "1.0.0",
+  "description": "Yelp Camp web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielgranata/yelp-camp.git"
+  },
+  "author": "Gabriel Granata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielgranata/yelp-camp/issues"
+  },
+  "homepage": "https://github.com/gabrielgranata/yelp-camp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  }
+}
