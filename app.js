@@ -9,6 +9,12 @@ app.set('view engine', 'ejs');
 var campgrounds = [
     {name: 'Salmon Creek', image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
     {name: 'Granite Hill', image: 'https://farm8.staticflickr.com/7338/9627572189_12dbd88ebe.jpg'},
+    {name: 'Mountain Goat\'s Rest', image: 'https://farm6.staticflickr.com/5181/5641024448_04fefbb64d.jpg'},
+    {name: 'Salmon Creek', image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
+    {name: 'Granite Hill', image: 'https://farm8.staticflickr.com/7338/9627572189_12dbd88ebe.jpg'},
+    {name: 'Mountain Goat\'s Rest', image: 'https://farm6.staticflickr.com/5181/5641024448_04fefbb64d.jpg'},
+    {name: 'Salmon Creek', image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
+    {name: 'Granite Hill', image: 'https://farm8.staticflickr.com/7338/9627572189_12dbd88ebe.jpg'},
     {name: 'Mountain Goat\'s Rest', image: 'https://farm6.staticflickr.com/5181/5641024448_04fefbb64d.jpg'}
 ];
 
