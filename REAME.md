@@ -51,3 +51,13 @@ Each Campground has:
 * Display comments on campground show page
 
 #Comment New/Create
+* Add the comment new and create routes
+* Add the new comment form
+
+##Style Show Page
+* Add sidebar to show page
+* Display comments nicely
+
+## Add User Model
+* Install all packages needed for auth
+* Define User model
