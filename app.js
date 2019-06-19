@@ -11,6 +11,7 @@ var express = require('express'),
 mongoose.connect('mongodb://localhost:27017/yelp-camp', { useNewUrlParser: true });
 //for parsing in POST requests
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
 app.set('view engine', 'ejs');
 seedDB();  
 
