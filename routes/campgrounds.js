@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-var Campground = require('../models/campground');
-var Comment     = require('../models/comment');
+var Campground  = require('../models/campground'),
+    Comment     = require('../models/comment');
 
 //INDEX - display list 
 router.get('/', function (req, res) {
