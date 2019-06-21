@@ -23,10 +23,12 @@ router.post('/', middleware.isLoggedIn, function (req, res) {
     //get data from form and add to campgrounds array
     var name = req.body.name;
     var image = req.body.image;
+    var price = req.body.price;
     var description = req.body.description;
     var newCampground = {
         name: name,
         image: image,
+        price: price,
         description: description,
         author: {
             id: req.user._id,
@@ -53,7 +55,8 @@ router.get('/new', middleware.isLoggedIn, function (req, res) {
 router.get('/:id', function (req, res) {
     //find the campground with provided ID
     Campground.findById(req.params.id).populate('comments').exec(function (err, foundCampground) {
-        if (err) {
+        if (err || !foundCampground) {
+            res.redirect('/campgrounds');
             console.log(err);
         } else {
             //render the show template with that campground
